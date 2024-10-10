@@ -475,7 +475,7 @@ img#arrow.rotated {
   }
 }
 
-@media only screen and (max-width: 599px) { /*** max-width: 700px ***/
+@media only screen and (max-width: 700px) { /*** max-width: 599px ***/
   .modal-content .d-flex div,
   .modal-content div {
     width: 100%;
@@ -543,7 +543,7 @@ img#arrow.rotated {
     padding: .5rem 2.5rem 1rem 2.5rem;
   }
   .topic-details-section .artists .section .details-heading{
-    font-size: 1rem; /***1.4rem;***/
+    font-size: 1.4rem; /***1rem;***/
     line-height: 1.75rem;
     font-weight: 600;
   }
@@ -592,7 +592,7 @@ img#arrow.rotated {
 /*Percentage icons*/
 .percentage-icon {
   aspect-ratio: 1/1;
-  width: 75%;  /*** width: 100%;  ***/
+  width: 100%;  /*** width: 75%;  ***/
   border-radius: 33px;
   position: relative;
   display: flex;
