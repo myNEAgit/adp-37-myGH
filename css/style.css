@@ -54,7 +54,7 @@ body {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr); 
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
@@ -575,7 +575,7 @@ img#arrow.rotated {
   }
 }
 
-@media (min-width:650px){  /* min-width: was 1200px */
+@media (min-width:609px){  /*** min-width: was 1200px ***/
   .intro-wrapper{
     -webkit-box-pack: center;
         -ms-flex-pack: center;
