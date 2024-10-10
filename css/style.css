@@ -421,7 +421,7 @@ img#arrow.rotated {
   color: #2D3687;
 }
 .description {
-  font-size: 1rem; /****1.2rem;***/
+  font-size: 1rem; /**** was 1.2rem; reduce font size ***/
   line-height: 1.5rem;
   font-weight: lighter;
 }
@@ -475,7 +475,7 @@ img#arrow.rotated {
   }
 }
 
-@media only screen and (max-width: 599px) { /*** max-width: 700px ***/
+@media only screen and (max-width: 599px) { /*** was 700px make map visible ***/
   .modal-content .d-flex div,
   .modal-content div {
     width: 100%;
@@ -543,7 +543,7 @@ img#arrow.rotated {
     padding: .5rem 2.5rem 1rem 2.5rem;
   }
   .topic-details-section .artists .section .details-heading{
-    font-size: 1.4rem; /***1rem;***/
+    font-size: 1rem; /*** was 1.4rem;***/
     line-height: 1.75rem;
     font-weight: 600;
   }
@@ -575,7 +575,7 @@ img#arrow.rotated {
   }
 }
 
-@media (min-width:1200px){
+@media (min-width:650px){  /* min-width: was 1200px */
   .intro-wrapper{
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -592,7 +592,7 @@ img#arrow.rotated {
 /*Percentage icons*/
 .percentage-icon {
   aspect-ratio: 1/1;
-  width: 100%;  /*** width: 75%;  ***/
+  width: 100%; 
   border-radius: 33px;
   position: relative;
   display: flex;
@@ -646,7 +646,7 @@ img#arrow.rotated {
 }
 
 .percentage-digital-media {
-  background-color: #2D3687;
+  background-color: #2D3687; 
 }
 
 .percentage-digital-media:after {
