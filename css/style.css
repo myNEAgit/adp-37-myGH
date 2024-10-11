@@ -54,7 +54,7 @@ body {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr;
-  grid-template-columns: repeat(4, 1fr); /*** was 2, 1fr  */
+  grid-template-columns: repeat(2, 1fr);
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
